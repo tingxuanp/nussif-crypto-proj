@@ -176,6 +176,8 @@ fwd_Nd = (close_{t+N} / close_t) - 1    for N ∈ {30, 60, 120, 365}
 | 2023-01-15 | 4.44σ  | +6.4%   | +20.0%  | +30.1%   | +103.6%  |
 | 2026-08-23 | 6.56σ  | —       | —       | —        | —        |
 
+---
+
 **Max drawdown (2026-08-23 excluded - too recent):**
 
 Max drawdown measures the worst peak-to-trough decline within each holding window, starting from the breakout date's close.
