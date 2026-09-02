@@ -187,3 +187,22 @@ Max drawdown measures the worst peak-to-trough decline within each holding windo
 | 2016-05-29 | 5.52σ  | -21.4%  | -21.4%  | -29.5%   | -29.6%   | -35.0%          | 2017-12-16 |
 | 2019-04-07 | 4.24σ  | -7.4%   | -12.3%  | -26.7%   | -62.3%   | -13.0%          | 2019-06-26 |
 | 2023-01-15 | 4.44σ  | -8.9%   | -18.6%  | -18.6%   | -20.1%   | -20.1%          | 2024-03-13 |
+
+> Note: 2019 MDD 365D (-62%) extends into the next bear market. MDD to bull end (-13%) is the better in-cycle measure.
+
+---
+
+**Return-to-MDD ratio**
+
+For each holding window, the ratio is: terminal forward return / |max drawdown|.
+
+- Terminal return: where the price ended up at the close of the window vs the entry price.
+- MDD: the worst peak-to-trough drop that occurred anywhere inside that window.
+- Ratio > 1: the return exceeded the worst drawdown.
+- Ratio < 1: the drawdown was larger than the terminal gain.
+
+| Date       | Signal | Ratio 30D | Ratio 60D | Ratio 120D | Ratio 365D | Ratio to Bull End | Bull End   |
+| ---------- | ------ | --------- | --------- | ---------- | ---------- | ----------------- | ---------- |
+| 2016-05-29 | 5.52σ  | 1.18×     | 1.24×     | 0.59×      | 11.46×     | 103.68×           | 2017-12-16 |
+| 2019-04-07 | 4.24σ  | 1.51×     | 4.14×     | 4.81×      | 0.67×      | 11.49×            | 2019-06-26 |
+| 2023-01-15 | 4.44σ  | 0.71×     | 1.08×     | 1.62×      | 5.16×      | 12.46×            | 2024-03-13 |
